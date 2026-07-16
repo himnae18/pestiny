@@ -1,0 +1,25 @@
+운세 뽑기 사이트 시작 안내
+===========================
+
+1. 바로 확인하기
+- 압축을 푼 뒤 index.html을 더블클릭하세요.
+- 메인 홈 화면과 운세/궁합/달력/더보기 메뉴가 바로 열립니다.
+
+2. GitHub에 올릴 때
+- 이 압축 안의 파일들을 저장소 최상단에 모두 올리세요.
+- 간단한 방법: Settings > Pages > Deploy from a branch > main / (root)
+- 기존 GitHub Actions 방식도 사용할 수 있습니다.
+- 루트 index.html이 완성된 사이트라 어느 방식으로 배포해도 메인 홈이 보입니다.
+
+3. 소스 코드를 수정하며 실행하기
+- 터미널에서 npm install
+- npm run dev
+- dev.html 개발 화면이 자동으로 열립니다.
+
+4. 수정 후 배포 파일 다시 만들기
+- npm run build
+- 루트 index.html과 dist 폴더가 자동 갱신됩니다.
+
+5. 로그인 기능
+- .env.example을 참고해 .env를 만들고 Supabase 정보를 입력하세요.
+- supabase/schema.sql을 Supabase SQL Editor에서 실행하세요.
