@@ -1,0 +1,11 @@
+{
+  "name": "달빛 운세함",
+  "short_name": "운세함",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ff",
+  "theme_color": "#6f57cf",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
